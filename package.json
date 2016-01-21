@@ -1,0 +1,36 @@
+{
+  "name": "@tradle/transport-http",
+  "version": "1.0.0",
+  "description": "tradle http-based transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tradle/transport-http"
+  },
+  "keywords": [
+    "http",
+    "tradle",
+    "transport"
+  ],
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tradle/transport-http/issues"
+  },
+  "homepage": "https://github.com/tradle/transport-http",
+  "devDependencies": {
+    "@tradle/utils": "^1.0.0",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "@tradle/constants": "^1.1.7",
+    "debug": "^2.2.0",
+    "nets": "^3.2.0",
+    "q": "^1.4.1",
+    "stream-collector": "^1.0.1",
+    "typeforce": "^1.6.1"
+  }
+}
