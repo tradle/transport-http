@@ -1,6 +1,6 @@
 {
   "name": "@tradle/transport-http",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tradle http-based transport",
   "main": "index.js",
   "scripts": {
